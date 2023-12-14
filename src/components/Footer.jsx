@@ -23,7 +23,18 @@ const Footer = () => {
           </li>
         </ul>
       </nav>
-      <small className="footer__copy">© Adalab</small>
+      <small className="footer__copy"><span className="mybrand">
+          <a
+            href="https://www.linkedin.com/in/virginia-alvarezperez/"
+            target="blank"
+          >
+            <i className="icons fa-brands fa-linkedin"></i>_
+          </a>
+          <a href="https://github.com/virchaca" target="blank">
+            <i className="icons fa-brands fa-github-alt"></i>
+          </a>{" "}
+          @VirWebCreations
+        </span></small>
     </footer>
   );
 };
